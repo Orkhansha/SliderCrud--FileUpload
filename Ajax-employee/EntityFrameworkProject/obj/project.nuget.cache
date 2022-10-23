@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZZR/mWLDYIgBY32MdGTArWmc2gLREHlybKa7+JaeSQnP0+Kq0y/VjLB/U4h3djX/5AoJ0URTi8NElZ3U2XeglA==",
+  "dgSpecHash": "Mxj1paFkdr+pxj1Ro8lYDc8whHVsmedUH6+q/AKpRpXou45yQTaUd7hK8FLIJPvAWJf72va+6hhbcK0GHKYcMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\OneDrive\\İş masası\\Fiorello-backend\\EntityFrameworkProject\\EntityFrameworkProject.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\OneDrive\\İş masası\\Programmer\\Asp.net\\Slider crud, file upload\\SliderCrud--FileUpload\\Ajax-employee\\EntityFrameworkProject\\EntityFrameworkProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

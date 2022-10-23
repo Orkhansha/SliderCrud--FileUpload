@@ -33,7 +33,7 @@
             <tbody>
                 @foreach (var emp in Model)
                 {
-                    <tr class="employee-item">
+                    <tr class="employee-item" data-id="@emp.Id">
                         <input type="hidden" class="emp-id" value="@emp.Id" />
                         <td>
                             @emp.FullName
@@ -57,7 +57,7 @@
 
                         </td>
                         <td style="text-align: center;">
-                            <button type="submit" data-id="@emp.Id" class="on-off-btn btn btn-outline-success">On / Off</button>
+                            <button data-id="@emp.Id" class="on-off-btn btn btn-outline-success">On / Off</button>
 
                             <a asp-action="Detail" asp-route-id="@emp.Id" class="btn btn-info"><i class="mdi mdi-information mx-0"></i></a>
                             <a asp-action="Edit" asp-route-id="@emp.Id" class="btn btn-primary"><i class="mdi mdi-table-edit"></i></a>
@@ -73,4 +73,10 @@
         </table>
     </div>
 </div>
+
+@section Scripts{
+
+    <script src="~/js/script.js"></script>
+
+}
 
