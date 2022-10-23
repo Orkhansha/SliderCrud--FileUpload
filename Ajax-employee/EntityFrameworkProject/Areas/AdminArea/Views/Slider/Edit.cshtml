@@ -1,0 +1,36 @@
+﻿@model Slider
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <span class="text-danger">@ViewBag.Message</span>
+            <div class="col-md-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-description">
+                            Slider
+                        </p>
+                        <form asp-controller="Slider" asp-action="Edit" class="forms-sample" method="post">
+                            <div class="form-group">
+                                <label for="exampleInputUsername1">Image</label>
+                                <input maxlength="50" type="text" class="form-control" asp-for="Image">
+                                <span class="text-danger my-1" asp-validation-for="Image"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                            <a asp-controller="Slider" asp-action="Index" class="btn btn-light">Cancel</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+
+    <partial name="_ValidationPartial" />
+}
+
